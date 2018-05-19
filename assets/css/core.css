@@ -3,6 +3,7 @@
     Original source code: https://github.com/devakira/material-css
 */
 
+
 @media (max-width: 550px) {
   .hide-mobile {
     display: none;
@@ -56,14 +57,14 @@
     src: url(https://discordapp.com/assets/748ac49ebe4bf0ddfe85c005be7c64c4.woff) format('woff')
 }
 body {
-	background: #fff;
-    color: #9099a4;
-    font-size: 16px;
-    height: 100%;
-    width: 100%;
-    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
-    margin: 0;
-    font-weight: 300;
+	background: #2C2F33;
+	    color: rgba(255, 255, 255, 0.6);
+	    font-size: 16px;
+	    height: 100%;
+	    width: 100%;
+	    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+	    margin: 0;
+        font-weight: 300;
 }
 
 code {
@@ -77,37 +78,9 @@ code {
 }
 
 footer {
-    background: #FAFAFA;
-    padding: 20px 10px;
-    padding-bottom: 200px;
-    margin-top: 100px;
-}
-
-header {
-    top: 0;
-    left: 0;
-    background-image: url(https://discordapp.com/assets/697e63f59d8a1e1673fd9b551f674d1f.png);
-    background-size: 270px 213px;
-    width: 100%;
-    padding-top: 12px;
-    padding-bottom: 40px;
-    margin-bottom: 50px;
-    color: #fff !important;
-    min-height: 650px;
-}
-
-header h1 {
-    color: #fff !important;
-}
-
-header .limit {
-    max-width: 460px;
-    text-align: center;
-    margin: 0 auto;
-}
-
-header p {
-    box-shadow: 0 0 25px 1px rgba(114, 137, 218, 0.53);
+    background: #23272A;
+    padding-top: 20px;
+    margin-top: 150px;
 }
 
 h1,
@@ -115,7 +88,7 @@ h2,
 h3,
 h4,
 h5 {
-    color: #4f545c;
+    color: #ffffff;
     font-weight: 500;
 }
 
@@ -141,10 +114,31 @@ p {
     text-align: center;
 }
 
+header {
+    top: 0;
+    left: 0;
+    background-image: url(https://discordapp.com/assets/697e63f59d8a1e1673fd9b551f674d1f.png);
+    background-size: 270px 213px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+}
+
+header .limit {
+    max-width: 460px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header p {
+    box-shadow: 0 0 25px 1px rgba(114, 137, 218, 0.53);
+}
+
 .section {
     max-width: 800px;
     margin: 0 auto;
-    padding: 30px 0px;
+    padding-bottom: 15px;
 }
 
 .button-wrapper {
@@ -160,7 +154,7 @@ p {
     border-radius: 3px;
     width: 100%;
     margin: 0 auto;
-        padding: 25px 0;
+    padding: 25px 0;
     text-decoration: none;
     font-weight: 600;
     font-size: 22px;
@@ -234,11 +228,6 @@ a:hover {
     letter-spacing: 0px;
 }
 
-.white-badge {
-    background-color: #fff !important;
-    color: rgb(35, 39, 42) !important;
-}
-
 .navbar {
     margin: 0px 30px;
     font-size: 110%;
@@ -247,101 +236,8 @@ a:hover {
 .navbar a {
     float: left;
     color: #fff !important;
-    padding: 0px 10px;
 }
 
 .navbar .right {
     float: right !important;
-}
-
-.alternate {
-    background: #FAFAFA !important;
-}
-
-@media (max-width: 550px) {
-  *[hidemob] {
-	  display: none;
-	}
-
-    .footer-links .box {
-        width: 100% !important;
-        text-align: center;
-        float: none;
-    }
-
-    .panel-links .box {
-        width: 100% !important;
-        float: none;
-    }
-
-    footer {
-        padding-bottom: 730px !important;
-    }
-
-    footer h2 {
-        text-align: center;
-    }
-}
-
-.footer-links .box {
-    width: 25%;
-    float: left;
-}
-
-.panel-links .box {
-    width: 33%;
-    float: right;
-    text-align: center;
-}
-
-.border-box {
-    border: 1px solid rgb(35,39,42);
-    border-radius: 7px;
-    padding: 0px;
-    margin: 10px auto;
-    max-width: 75%;
-    text-align: center;
-}
-
-.border-box .box {
-    margin: 5px auto;
-    cursor: pointer;
-    float: none !important;
-    width: 100% !important;
-    border: 0px !important;
-}
-
-hr {
-    padding: 20px;
-    border: 0px;
-    border-bottom: 1px solid rgba(153, 170, 181, 0.3);
-}
-
-.topic {
-    border-bottom: 1px solid rgba(153, 170, 181, 0.3);
-    font-size: 24px;
-    padding: 30px 0px;
-    transition: 0.3s;
-}
-
-.topic-list {
-    text-align: left;
-    list-style: none;
-    padding: 0px;
-}
-
-.topic:hover {
-    padding-left: 15px;
-    background-color: rgba(153, 170, 181, 0.1);
-}
-
-.description {
-    color: #23272A !important;
-    font-size: 18px;
-    float: right;
-    text-align: right;
-    max-width: 65%;
-}
-#panel-main {
-    padding: 0px 10px;
 }
